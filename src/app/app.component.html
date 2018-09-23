@@ -1,0 +1,12 @@
+<nv-editable-table 
+[table-headers]="tableHeaders" 
+[add-button-label] ="addButtonLabel"  
+[edit-button-label] ="editButtonLabel"  
+[save-button-label] ="saveButtonLabel"  
+[cancel-button-label] ="cancelButtonLabel" 
+[delete-button-label] = "deleteButtonLabel"
+[table-rows-with-id]="tableRowsWithId"
+[data-type]="dataType" 
+(onRemove)="onRemove($event)"
+class="ui table">
+</nv-editable-table>
